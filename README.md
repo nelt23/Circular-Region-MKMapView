@@ -13,3 +13,8 @@ Regardless of the type of circle the minimum radius is 100 meters and the maximu
 
 
 ![](https://media.giphy.com/media/XK8fXoB7obmz8VfXfX/giphy.gif)
+
+The map detects when we want to change the radius or move the map.
+
+
+![](https://media.giphy.com/media/2iht5vR0ZZKiDiAQ5o/giphy.gif)

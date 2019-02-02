@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4118310421FD2E4B001F094F /* CAShapeLayerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4118310321FD2E4B001F094F /* CAShapeLayerExtension.swift */; };
+		4119F88622052EEE009F51A5 /* CircleBothClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4119F88522052EEE009F51A5 /* CircleBothClass.swift */; };
+		411BAC5121F9354000517695 /* CircleInternClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411BAC5021F9354000517695 /* CircleInternClass.swift */; };
+		411CF9C821FCAD6D008D162B /* CircleGestureExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411CF9C721FCAD6D008D162B /* CircleGestureExtension.swift */; };
+		411DA00E21F682A60059B75C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411DA00D21F682A60059B75C /* AppDelegate.swift */; };
+		411DA01321F682A60059B75C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 411DA01121F682A60059B75C /* Main.storyboard */; };
+		411DA01521F682A80059B75C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 411DA01421F682A80059B75C /* Assets.xcassets */; };
+		411DA01821F682A80059B75C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 411DA01621F682A80059B75C /* LaunchScreen.storyboard */; };
+		411DAC342205FA7D00B0FC8D /* CircleExtrasFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411DAC332205FA7D00B0FC8D /* CircleExtrasFunc.swift */; };
+		411DAC362205FB4000B0FC8D /* CircleDisplayLinkExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411DAC352205FB4000B0FC8D /* CircleDisplayLinkExtension.swift */; };
+		411DAC382205FBBD00B0FC8D /* CircleMKMapViewDelegateVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411DAC372205FBBD00B0FC8D /* CircleMKMapViewDelegateVCExtension.swift */; };
+		411DFA2421FE7119008BEDDA /* MKMapViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411DFA2321FE7119008BEDDA /* MKMapViewExtension.swift */; };
+		41939BF321FE7F3F00B41579 /* CircleExternClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41939BF221FE7F3F00B41579 /* CircleExternClass.swift */; };
+		41F230DA21FB79B20013C9FF /* CircularRegionMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F230D921FB79B20013C9FF /* CircularRegionMapVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4118310321FD2E4B001F094F /* CAShapeLayerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAShapeLayerExtension.swift; sourceTree = "<group>"; };
+		4119F88522052EEE009F51A5 /* CircleBothClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleBothClass.swift; sourceTree = "<group>"; };
+		411BAC5021F9354000517695 /* CircleInternClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleInternClass.swift; sourceTree = "<group>"; };
+		411CF9C721FCAD6D008D162B /* CircleGestureExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGestureExtension.swift; sourceTree = "<group>"; };
+		411DA00A21F682A60059B75C /* CircularRegionMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircularRegionMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		411DA00D21F682A60059B75C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		411DA01221F682A60059B75C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		411DA01421F682A80059B75C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		411DA01721F682A80059B75C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		411DA01921F682A80059B75C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		411DAC332205FA7D00B0FC8D /* CircleExtrasFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleExtrasFunc.swift; sourceTree = "<group>"; };
+		411DAC352205FB4000B0FC8D /* CircleDisplayLinkExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleDisplayLinkExtension.swift; sourceTree = "<group>"; };
+		411DAC372205FBBD00B0FC8D /* CircleMKMapViewDelegateVCExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleMKMapViewDelegateVCExtension.swift; sourceTree = "<group>"; };
+		411DFA2321FE7119008BEDDA /* MKMapViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKMapViewExtension.swift; sourceTree = "<group>"; };
+		41939BF221FE7F3F00B41579 /* CircleExternClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleExternClass.swift; sourceTree = "<group>"; };
+		41F230D921FB79B20013C9FF /* CircularRegionMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularRegionMapVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		411DA00721F682A60059B75C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4119F88722052FD2009F51A5 /* CirclesClass */ = {
+			isa = PBXGroup;
+			children = (
+				411BAC5021F9354000517695 /* CircleInternClass.swift */,
+				41939BF221FE7F3F00B41579 /* CircleExternClass.swift */,
+				4119F88522052EEE009F51A5 /* CircleBothClass.swift */,
+			);
+			path = CirclesClass;
+			sourceTree = "<group>";
+		};
+		411DA00121F682A60059B75C = {
+			isa = PBXGroup;
+			children = (
+				411DA00C21F682A60059B75C /* CircularRegionMap */,
+				411DA00B21F682A60059B75C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		411DA00B21F682A60059B75C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				411DA00A21F682A60059B75C /* CircularRegionMap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		411DA00C21F682A60059B75C /* CircularRegionMap */ = {
+			isa = PBXGroup;
+			children = (
+				411DA00D21F682A60059B75C /* AppDelegate.swift */,
+				41F230D921FB79B20013C9FF /* CircularRegionMapVC.swift */,
+				4119F88722052FD2009F51A5 /* CirclesClass */,
+				411DFA2521FE7181008BEDDA /* Extensions */,
+				411DA01121F682A60059B75C /* Main.storyboard */,
+				411DA01421F682A80059B75C /* Assets.xcassets */,
+				411DA01621F682A80059B75C /* LaunchScreen.storyboard */,
+				411DA01921F682A80059B75C /* Info.plist */,
+			);
+			path = CircularRegionMap;
+			sourceTree = "<group>";
+		};
+		411DFA2521FE7181008BEDDA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				411CF9C721FCAD6D008D162B /* CircleGestureExtension.swift */,
+				411DAC352205FB4000B0FC8D /* CircleDisplayLinkExtension.swift */,
+				411DAC372205FBBD00B0FC8D /* CircleMKMapViewDelegateVCExtension.swift */,
+				411DAC332205FA7D00B0FC8D /* CircleExtrasFunc.swift */,
+				4118310321FD2E4B001F094F /* CAShapeLayerExtension.swift */,
+				411DFA2321FE7119008BEDDA /* MKMapViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		411DA00921F682A60059B75C /* CircularRegionMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 411DA01C21F682A80059B75C /* Build configuration list for PBXNativeTarget "CircularRegionMap" */;
+			buildPhases = (
+				411DA00621F682A60059B75C /* Sources */,
+				411DA00721F682A60059B75C /* Frameworks */,
+				411DA00821F682A60059B75C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircularRegionMap;
+			productName = CircularRegionMap;
+			productReference = 411DA00A21F682A60059B75C /* CircularRegionMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		411DA00221F682A60059B75C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Nuno Martins";
+				TargetAttributes = {
+					411DA00921F682A60059B75C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 411DA00521F682A60059B75C /* Build configuration list for PBXProject "CircularRegionMap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 411DA00121F682A60059B75C;
+			productRefGroup = 411DA00B21F682A60059B75C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				411DA00921F682A60059B75C /* CircularRegionMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		411DA00821F682A60059B75C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411DA01821F682A80059B75C /* LaunchScreen.storyboard in Resources */,
+				411DA01521F682A80059B75C /* Assets.xcassets in Resources */,
+				411DA01321F682A60059B75C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		411DA00621F682A60059B75C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41939BF321FE7F3F00B41579 /* CircleExternClass.swift in Sources */,
+				411DFA2421FE7119008BEDDA /* MKMapViewExtension.swift in Sources */,
+				411BAC5121F9354000517695 /* CircleInternClass.swift in Sources */,
+				411CF9C821FCAD6D008D162B /* CircleGestureExtension.swift in Sources */,
+				41F230DA21FB79B20013C9FF /* CircularRegionMapVC.swift in Sources */,
+				411DAC382205FBBD00B0FC8D /* CircleMKMapViewDelegateVCExtension.swift in Sources */,
+				4119F88622052EEE009F51A5 /* CircleBothClass.swift in Sources */,
+				411DAC362205FB4000B0FC8D /* CircleDisplayLinkExtension.swift in Sources */,
+				411DAC342205FA7D00B0FC8D /* CircleExtrasFunc.swift in Sources */,
+				4118310421FD2E4B001F094F /* CAShapeLayerExtension.swift in Sources */,
+				411DA00E21F682A60059B75C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		411DA01121F682A60059B75C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				411DA01221F682A60059B75C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		411DA01621F682A80059B75C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				411DA01721F682A80059B75C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		411DA01A21F682A80059B75C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		411DA01B21F682A80059B75C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		411DA01D21F682A80059B75C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CircularRegionMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nelt23.AppCompany.CircularRegionMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		411DA01E21F682A80059B75C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CircularRegionMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nelt23.AppCompany.CircularRegionMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		411DA00521F682A60059B75C /* Build configuration list for PBXProject "CircularRegionMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				411DA01A21F682A80059B75C /* Debug */,
+				411DA01B21F682A80059B75C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		411DA01C21F682A80059B75C /* Build configuration list for PBXNativeTarget "CircularRegionMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				411DA01D21F682A80059B75C /* Debug */,
+				411DA01E21F682A80059B75C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 411DA00221F682A60059B75C /* Project object */;
+}
